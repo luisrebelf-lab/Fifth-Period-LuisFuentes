@@ -3,7 +3,7 @@
 
 /*unvisitied link*/
 a:link {
-  color: White;
+  color: darkgrey;
 	padding:10px 15px;
 	margin: 5px 15px;
 	border-radius: 5px;
@@ -12,7 +12,7 @@ a:link {
 
 /*visited link*/
 a:visited {
-  color: white;
+  color: black;
 	padding:10px 15px;
 	margin: 5px 15px;
 	border-radius: 5px;
@@ -28,25 +28,32 @@ a:active {
   color: White;
 }
 
-body{background-color: #daf0ff}
+body{ 
+	background-color: #24826F;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
 #header {
 	font-size:45px; 
 	text-align: center;
-	background-color: #03254c;
-	color: white;padding:10px
+	background-color: #000082;
+	color: white;padding:10px;
+	
+	
 }
 #nav
 {
 	font-size:25px; 
 	text-align: center;
-	background-color: #1167b1;
+	background-color: #c3c3c3;
 	color: white;padding: 15px
 }
 #foot
 {
 	font-size:20px; 
 	text-align: center;
-	background-color: #1167b1; 
+	background-color: #000082; 
 	color: white;
 	padding: 15px
 
@@ -63,7 +70,7 @@ padding: 15px;
 body {color:black;}
 
 .thirdcolumn {
-	width: 30%;
+	width: 25%;
 	padding: 20px;
 	float: right;
 	margin: 10px;
